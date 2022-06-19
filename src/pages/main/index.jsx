@@ -32,6 +32,7 @@ export const MainPage = () => {
         setResults(res);
         setLocation(res.data.location);
         setCurrent(res.data.current);
+        setError(false);
       })
       .catch((err) => {
         console.log("ih mané");
