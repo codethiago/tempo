@@ -1,0 +1,18 @@
+div {
+  background-image: url("/src/assets/bg.jpg");
+}
+
+footer {
+  height: 80px;
+}
+
+a:hover {
+  color: #3182ce;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
