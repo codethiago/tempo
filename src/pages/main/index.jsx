@@ -1,20 +1,17 @@
 import React, { useState } from "react";
 import { useWeather } from "../../services/context";
-import { Button, ButtonGroup } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 import { Input } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
 import { Box } from "@chakra-ui/react";
-import { SunIcon } from "@chakra-ui/icons";
 import {
   Table,
   Thead,
   Tbody,
-  Tfoot,
   Tr,
   Th,
   Td,
-  TableCaption,
   TableContainer,
 } from "@chakra-ui/react";
 
